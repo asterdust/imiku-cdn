@@ -1,0 +1,60 @@
+/*[[scrollbarCssOn]]*/
+::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3) inset;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3) inset;
+    background-color: #999;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #777;
+}
+::-webkit-scrollbar-thumb:active{
+    background-color: #555;
+}
+
+#banner {
+    width: 100%;
+    overflow: hidden;
+    background-size: contain;
+    background: no-repeat fixed center;
+    margin-top: -64px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#banner * {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: 8px;
+}
+
+.mdui-list-item-content {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+@media only screen and (min-width:1029px) {
+
+    .moe-card, .moe-card-post, .moe-comments-box, .moe-comments-list-box{
+        width: 1200px;
+    }
+
+    #banner {
+        height: 35rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) and (min-width:321px) and (max-width:1024px) {
+    #banner {
+        height: 25rem;
+    }
+}
