@@ -44,8 +44,8 @@
 
 @media only screen and (min-width:1029px) {
 
-    .moe-card, .moe-card-post, .moe-comments-box, .moe-comments-list-box{
-        width: 1200px;
+    .moe-card, .moe-card-post, .moe-comments-box, .moe-comments-list-box, .moe-card-page{
+        width: 1100px;
     }
 
     #banner {
